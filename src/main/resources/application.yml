@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ADMIN-SERVICE
+  profile:
+    active: dev
+  cloud:
+    config:
+      name: admin-service
+  config:
+    import: "optional:configserver:"
