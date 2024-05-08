@@ -1,4 +1,4 @@
-package au.edu.cqu.g4.adminservice.insurance_companies;
+package au.edu.cqu.g4.adminservice.shared_entities;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Field;

@@ -1,6 +1,6 @@
 package au.edu.cqu.g4.adminservice.insurance_companies.dtos;
 
-import au.edu.cqu.g4.adminservice.insurance_companies.Address;
+import au.edu.cqu.g4.adminservice.shared_entities.Address;
 import lombok.Builder;
 import lombok.Data;
 
