@@ -6,5 +6,5 @@ spring:
   cloud:
     config:
       name: admin-service
-  config:
-    import: "optional:configserver:"
+      uri: http://configuration-server:8888
+      import: "optional:configserver:"
