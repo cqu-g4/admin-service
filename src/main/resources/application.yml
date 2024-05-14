@@ -7,4 +7,5 @@ spring:
     config:
       name: admin-service
       uri: http://configuration-server:8888
-      import: "optional:configserver:"
+  config:      
+   import: "optional:configserver:"
