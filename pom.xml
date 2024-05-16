@@ -86,24 +86,6 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                    <profiles>
-                        <profile>
-                            <id>dev</id>
-                            <activation>
-                                <activeByDefault>true</activeByDefault>
-                            </activation>
-                            <properties>
-                                <activeProfile>dev</activeProfile>
-                            </properties>
-                        </profile>
-
-                        <profile>
-                            <id>local</id>
-                            <properties>
-                                <activeProfile>local</activeProfile>
-                            </properties>
-                        </profile>
-                    </profiles>
                 </configuration>
             </plugin>
         </plugins>
