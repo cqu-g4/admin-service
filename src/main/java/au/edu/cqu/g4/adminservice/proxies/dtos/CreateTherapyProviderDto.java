@@ -1,6 +1,5 @@
 package au.edu.cqu.g4.adminservice.proxies.dtos;
 
-import au.edu.cqu.g4.adminservice.shared_entities.Address;
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -17,6 +16,6 @@ public class CreateTherapyProviderDto {
     private LocalDate establishedDate;
     private String email;
     private String password;
-    private Address address;
+    private String address;
     private String contactNumber;
 }
